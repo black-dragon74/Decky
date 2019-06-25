@@ -11,7 +11,7 @@ Then you can present any view controller like so:
 ```Swift
 let decky = Decky()
 decky.presentingController = self
-decky.controllerToPresent = YouController()
+decky.controllerToPresent = YourController()
 self.present(decky, animated: false, completion: nil)
 ```
 
